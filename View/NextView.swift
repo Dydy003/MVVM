@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct NextView: View {
+    
+    let user: SignUpUserModel?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            if let user {
+                Text("Welcome \(user.username) 🎉")
+                Text(user.email)
+            } else {
+                Text("No user data")
+            }
+        }
+        .font(.title)
     }
 }
 
 #Preview {
-    NextView()
+    NextView(user: SignUpUserModel(username: "", email: "", password: ""))
 }

@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F8E15C1B2F030C0B000C1E11 /* SignUpUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E15C1A2F030C0B000C1E11 /* SignUpUserModel.swift */; };
+		F8E15C1D2F030CA7000C1E11 /* SignUpUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E15C1C2F030CA7000C1E11 /* SignUpUserViewModel.swift */; };
+		F8E15C1F2F030E32000C1E11 /* SignUpUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E15C1E2F030E32000C1E11 /* SignUpUserView.swift */; };
+		F8E15C212F030E96000C1E11 /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E15C202F030E96000C1E11 /* NextView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F8E15C072F030BA5000C1E11 /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E15C1A2F030C0B000C1E11 /* SignUpUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUserModel.swift; sourceTree = "<group>"; };
+		F8E15C1C2F030CA7000C1E11 /* SignUpUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUserViewModel.swift; sourceTree = "<group>"; };
+		F8E15C1E2F030E32000C1E11 /* SignUpUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUserView.swift; sourceTree = "<group>"; };
+		F8E15C202F030E96000C1E11 /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +43,9 @@
 		F8E15BFE2F030BA5000C1E11 = {
 			isa = PBXGroup;
 			children = (
+				F8E15C192F030BE2000C1E11 /* Model */,
+				F8E15C182F030BD5000C1E11 /* ViewModel */,
+				F8E15C172F030BC5000C1E11 /* View */,
 				F8E15C092F030BA5000C1E11 /* MVVM */,
 				F8E15C082F030BA5000C1E11 /* Products */,
 			);
@@ -43,6 +57,31 @@
 				F8E15C072F030BA5000C1E11 /* MVVM.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E15C172F030BC5000C1E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8E15C1E2F030E32000C1E11 /* SignUpUserView.swift */,
+				F8E15C202F030E96000C1E11 /* NextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8E15C182F030BD5000C1E11 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8E15C1C2F030CA7000C1E11 /* SignUpUserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F8E15C192F030BE2000C1E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8E15C1A2F030C0B000C1E11 /* SignUpUserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E15C1B2F030C0B000C1E11 /* SignUpUserModel.swift in Sources */,
+				F8E15C212F030E96000C1E11 /* NextView.swift in Sources */,
+				F8E15C1D2F030CA7000C1E11 /* SignUpUserViewModel.swift in Sources */,
+				F8E15C1F2F030E32000C1E11 /* SignUpUserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

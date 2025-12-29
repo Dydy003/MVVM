@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct SignUpUserModel {
+    
+    let username: String
+    let email: String
+    let password: String
+}
