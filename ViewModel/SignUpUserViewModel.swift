@@ -1,0 +1,8 @@
+//
+//  SignUpUserViewModel.swift
+//  MVVM
+//
+//  Created by Dylan caetano on 29/12/2025.
+//
+
+import Foundation
